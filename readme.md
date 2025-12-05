@@ -1,13 +1,19 @@
 Create .env in the project root:
----------
+-----------
 SYMBOLS=MSFT,AAPL
+
 ALPHA_VANTAGE_KEY=YOUR_API_KEY_HERE
 
 POSTGRES_HOST=db
+
 POSTGRES_PORT=5432
+
 POSTGRES_DB=db
+
 POSTGRES_USER=db_user
+
 POSTGRES_PASSWORD=db_password
+
 export ROOT_DIR=#ADD YOUR PROJECTPATH
 
 start the pipeline
