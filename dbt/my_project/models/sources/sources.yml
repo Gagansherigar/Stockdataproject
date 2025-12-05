@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: dev
+    schema: dev
+    tables:
+      - name: stock_data
+        columns:
+          - name: id
+          - name: symbol
+          - name: timestamp
+          - name: interval
+          - name: source
+          - name: open
+          - name: high
+          - name: low
+          - name: close
+          - name: volume
+          - name: created_at
+          - name: updated_at
+        

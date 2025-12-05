@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# Airflow
+airflow/logs/
+airflow/__pycache__/
+
+# DBT
+dbt/logs/
+dbt/target/
+
+# Docker
+postgres/data/
+*.db
+*.log
+
+# OS files
+.DS_Store
